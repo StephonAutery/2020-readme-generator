@@ -1,0 +1,11 @@
+2020-a-daily-planner
+2020-javascript-password-generator
+2020-readme-generator
+2020-stephon-autery-a-timed-quiz
+2020-ucb-01-code-refactor
+2020-ucb-02-responsive-portfolio
+2020-UCB-prework
+2020-weather-dashboard
+a-simple-calculator
+a-work-day-scheduler
+Stephon-Autery-UIKit-Portfolio
