@@ -68,7 +68,7 @@ inquirer
 
 
         responseJson = JSON.stringify(writePage);
-        fs.writeFile('readme-sla.md', writePage, 'utf8', (err) => {
+        fs.writeFile('readme-sla.md', responseJson, 'utf8', (err) => {
             if (err) throw err;
         });
     })
