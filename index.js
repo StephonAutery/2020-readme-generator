@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const badgeFactory = require('gh-badges');
+// const badgeFactory = require('gh-badges');
 
 var userArray = [];
 
