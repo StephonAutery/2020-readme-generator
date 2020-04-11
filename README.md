@@ -4,9 +4,10 @@
  a command-line application that dynamically generates a README.md file from a user's terminal input. 
  ## contents: 
   
- - this is the place for your table of contents 
- - you can make a list here 
- - this is how it works. 
+ - JavaScript & HTML 
+ - NPM module 
+ - FS module 
+ - Node.JS 
  ## installation documentation: 
  dependencies: 
  - NPM-Inquirer 
@@ -20,4 +21,10 @@
  ## contributors: 
  Stephon Autery 
  ## testing : 
- no tests were run
+ no tests were run 
+ 
+ 
+ ## this is an image: 
+ 
+ 
+ ![i'm a link](./images/stephon-headshot-garden.jpg)
