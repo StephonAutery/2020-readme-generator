@@ -1,4 +1,4 @@
-# 2020 - read me generator 
+# 2020 - readme generator 
  ![i'm a link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) 
  ## description 
  a command-line application that dynamically generates a README.md file from a user's terminal input. 
@@ -15,13 +15,13 @@
  - run: node index 
  ## how will the app be used? 
   
- This application is used to save the developer the trouble of formatting a README.md file.  
+ This app is used to save the developer the trouble of formatting a README.md file.  
  ## GitHub repository 
  [Stephon Autery on github](https://github.com/StephonAutery/2020-readme-generator) 
  ## contributors 
  Stephon Autery 
  ## testing 
- no tests run 
+ no test run 
  
  
  ## a photo of Stephon Autery 
