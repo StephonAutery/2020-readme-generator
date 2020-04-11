@@ -18,10 +18,10 @@
  the application is used to save the develper the trouble of formating a README.md file.  
  ## GitHub repository 
  [Stephon Autery on github](https://github.com/StephonAutery/2020-readme-generator) 
- ## contributors: 
+ ## contributors 
  Stephon Autery 
  ## testing 
- no tests were run 
+ no tests run 
  
  
  ## a photo of Stephon Autery 
