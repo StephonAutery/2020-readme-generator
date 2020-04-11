@@ -3,10 +3,11 @@
  ## description 
  a command-line application that dynamically generates a README.md file from a user's terminal input. 
  ## contents 
-  
+ 
+ 
  - JavaScript & HTML 
  - NPM module 
- - FS Module 
+ - FS module 
  - Node.JS 
  ## installation documentation 
  dependencies: 
@@ -21,7 +22,7 @@
  ## contributors 
  Stephon Autery 
  ## testing 
- no tests run 
+ no test run 
  
  
  ## a photo of Stephon Autery 
