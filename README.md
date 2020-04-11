@@ -24,7 +24,7 @@
  no tests were run 
  
  
- ## this is an image: 
+ ## a photo of Stephon Autery: 
  
  
  ![i'm a link](./images/stephon-headshot-garden.jpg)
