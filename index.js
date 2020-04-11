@@ -57,9 +57,16 @@ inquirer
         {
             type: "input",
             message: "questions: ",
-            default: "no tests were run",
+            default: "no tests run",
             name: "tests"
         },
+        {
+            type: "input",
+            message: "enter an image URL: ",
+            default: "'images/stephon-headshot-garden.jpg'",
+            name: "image"
+        }
+
     ])
 
     .then(function (response) {
@@ -67,7 +74,7 @@ inquirer
 
         // console.log(response.name);
 
-        let writePage = `# ${response.name} \n ![i'm a link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) \n ## description \n ${response.description} \n ## contents \n ${response.contents} \n ## installation documentation \n ${response.installDoc} \n ## how will the app be used? \n ${response.usage}  \n ## GitHub repository \n ${response.github} \n ## contributors: \n ${response.contributing} \n ## testing \n ${response.tests} \n \n \n ## a photo of Stephon Autery \n \n \n ![i'm a link](./images/stephon-headshot-garden.jpg)`;
+        let writePage = `# ${response.name} \n ![i'm a link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) \n ## description \n ${response.description} \n ## contents \n ${response.contents} \n ## installation documentation \n ${response.installDoc} \n ## how will the app be used? \n ${response.usage}  \n ## GitHub repository \n ${response.github} \n ## contributors \n ${response.contributing} \n ## testing \n ${response.tests} \n \n \n ## a photo of Stephon Autery \n \n \n ![i'm a link](${image})`;
 
         // responseJson = JSON.stringify(writePage);
         fs.writeFile('README.md', writePage, 'utf8', (err) => {
