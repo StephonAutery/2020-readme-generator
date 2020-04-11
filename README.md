@@ -6,7 +6,7 @@
   
  - JavaScript & HTML 
  - NPM module 
- - FS module 
+ - FS Module 
  - Node.JS 
  ## installation documentation 
  dependencies: 
@@ -15,13 +15,13 @@
  - run: node index 
  ## how will the app be used? 
   
- This app is used to save the developer the trouble of formatting a README.md file.  
+ This application is used to save the developer the trouble of formatting a README.md file.  
  ## GitHub repository 
  [Stephon Autery on github](https://github.com/StephonAutery/2020-readme-generator) 
  ## contributors 
  Stephon Autery 
  ## testing 
- no test run 
+ no tests run 
  
  
  ## a photo of Stephon Autery 
