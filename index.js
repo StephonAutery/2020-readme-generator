@@ -61,18 +61,20 @@ inquirer
             name: "tests"
         },
     ])
-    .then(function (response) {
-        thisName = response.name;
 
-        console.log(response.name);
+    .then(function (response) {
+        // thisName = response.name;
+
+        // console.log(response.name);
 
         let writePage = `# ${response.name} \n ![i'm a link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) \n ## description: \n ${response.description} \n ## contents: \n ${response.contents} \n ## installation documentation: \n ${response.installDoc} \n ## how will the app be used? : \n ${response.usage}  \n ## GitHub repository: \n ${response.github} \n ## contributors: \n ${response.contributing} \n ## testing : \n ${response.tests}`;
 
-        responseJson = JSON.stringify(writePage);
+        // responseJson = JSON.stringify(writePage);
         fs.writeFile('README.md', writePage, 'utf8', (err) => {
             if (err) throw err;
         });
     })
+
     .catch(error => {
         if (error.isTtyError) {
             console.log("couldn't do it");
