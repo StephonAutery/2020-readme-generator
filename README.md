@@ -4,15 +4,15 @@
  a command-line application that dynamically generates a README.md file from a user's terminal input. 
  ## contents 
   
- - JavaScript & HTML 
- - NPM module 
- - FS module 
+ - JavaScript 
  - Node.JS 
+ - NPM 
+ - FS 
+ - inquirer 
  ## installation documentation 
  dependencies: 
- - NPM-Inquirer 
- - NPM-fs 
- - run: node index 
+ - inquirer 
+ - fs 
  ## how will the app be used? 
   
  the application is used to save the develper the trouble of formating a README.md file.  

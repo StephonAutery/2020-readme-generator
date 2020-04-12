@@ -20,13 +20,13 @@ inquirer
         {
             type: "editor",
             message: "please enter a table of contents?",
-            default: " \n - JavaScript & HTML \n - NPM module \n - FS module \n - Node.JS",
+            default: " \n - JavaScript \n - Node.JS \n - NPM \n - FS \n - inquirer",
             name: "contents"
         },
         {
             type: "editor",
             message: "please explain the installation process.",
-            default: "dependencies: \n - NPM-Inquirer \n - NPM-fs \n - run: node index",
+            default: "dependencies: \n - inquirer \n - fs",
             name: "installDoc"
         },
         {
