@@ -1,5 +1,5 @@
 # 2020 - readme generator 
- ![i'm a link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) 
+ ![i'm_a_link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) ![i'm_a_link](https://img.shields.io/badge/_ES_-_6_-green) ![i'm a link](https://img.shields.io/badge/_inquirer_-_7.1.0_-green>) ![i'm a link](https://img.shields.io/badge/_fs_-0.0.1_-orange.svg) 
  ## description 
  a command-line application that dynamically generates a README.md file from a user's terminal input. 
  ## contents 
@@ -15,7 +15,7 @@
  - run: node index 
  ## how will the app be used? 
   
- This app is used to save the developer the trouble of formatting a README.md file.  
+ the application is used to save the develper the trouble of formating a README.md file.  
  ## GitHub repository 
  [Stephon Autery on github](https://github.com/StephonAutery/2020-readme-generator) 
  ## contributors 

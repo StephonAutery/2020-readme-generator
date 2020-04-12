@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const badgeFactory = require('gh-badges');
 
 var userArray = [];
 
@@ -60,23 +59,10 @@ inquirer
             default: "no tests run",
             name: "tests"
         },
-        // {
-        //     type: "input",
-        //     message: "enter an image URL: ",
-        //     default: "![i'm a link](./images/stephon-headshot-garden.jpg)",
-        //     name: "image"
-        // },
-
     ])
 
     .then(function (response) {
-        // thisName = response.name;
-
-        // console.log(response.name);
-
-        let writePage = `# ${response.name} \n ![i'm a link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) \n ## description \n ${response.description} \n ## contents \n ${response.contents} \n ## installation documentation \n ${response.installDoc} \n ## how will the app be used? \n ${response.usage}  \n ## GitHub repository \n ${response.github} \n ## contributors \n ${response.contributing} \n ## testing \n ${response.tests} \n \n \n ## a photo of Stephon Autery \n \n \n ![i'm a link](./images/stephon-headshot-garden.jpg)`;
-
-        // responseJson = JSON.stringify(writePage);
+        let writePage = `# ${response.name} \n ![i'm_a_link](https://img.shields.io/badge/Stephon_Autery-let's_begin_here_...-goldenrod.svg) ![i'm a link](https://img.shields.io/badge/license-MIT-blue.svg) ![i'm_a_link](https://img.shields.io/badge/_ES_-_6_-green) ![i'm a link](https://img.shields.io/badge/_inquirer_-_7.1.0_-green>) ![i'm a link](https://img.shields.io/badge/_fs_-0.0.1_-orange.svg) \n ## description \n ${response.description} \n ## contents \n ${response.contents} \n ## installation documentation \n ${response.installDoc} \n ## how will the app be used? \n ${response.usage}  \n ## GitHub repository \n ${response.github} \n ## contributors \n ${response.contributing} \n ## testing \n ${response.tests} \n \n \n ## a photo of Stephon Autery \n \n \n ![i'm a link](./images/stephon-headshot-garden.jpg)`;
         fs.writeFile('README.md', writePage, 'utf8', (err) => {
             if (err) throw err;
         });
